@@ -2,6 +2,7 @@ const name = "Lilly";
 let number = 0;
 //Zahl wird bei A - 1 gerechnet und bei B + 1. AB ist Reset.
 
+//Forever loop erkennt welcher Button gedrückt wurde
 basic.forever(function() {
     if (input.buttonIsPressed(Button.AB)) {
         basic.clearScreen();
